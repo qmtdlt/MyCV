@@ -1,10 +1,12 @@
 # 🧑‍💻 Zhang Hao
 
-<div align="center">
+<div align="left">
 
 📧 **Email:** qmtdlt@gmail.com  
 🔗 **GitHub:** [github.com/qmtdlt](https://github.com/qmtdlt)  
-🌐 **Personal Website:** [youngforyou.top](https://youngforyou.top)
+🔗 **LinkedIn:** [linkedin.com/in/hao-zhang-288668156](https://www.linkedin.com/in/hao-zhang-288668156/)  
+🌐 **Personal Website:** [youngforyou.top](https://youngforyou.top) 
+📝 **Blog:** Technical articles on C#/.NET development
 
 </div>
 
@@ -12,12 +14,12 @@
 
 ## 💼 Skills & Technologies
 
-<div align="center">
+<div align="left">
 
-| 🔧 **Tech Stack** | �️ **Tools** |
+| 🔧 **Tech Stack** | 🛠️ **Tools** |
 |:-------------:|:----------:|
-| **Languages:** C#, C++, JavaScript (ES6+), TypeScript, SQL | **Frameworks:** .NET 9, ASP.NET Core, WPF, Vue.js |
-| **Databases:** SQL Server, MySQL, QuestDB, DM Database | **Others:** Git, RESTful API, TCP/UDP, Docker, Nginx |
+| **Languages:** C# (8+ years), C++ (3+ years), JavaScript/TypeScript (3+ years), SQL | **Frameworks:** .NET 9, ASP.NET Core, WPF, Vue.js |
+| **Databases:** SQL Server, MySQL, QuestDB | **Others:** Git, REST APIs, TCP/UDP, Docker, Nginx |
 
 </div>
 
@@ -25,21 +27,34 @@
 
 ## 🌟 My Advantages
 
-- 🎯 Adept at finding solutions in uncertain environments, driving project implementation and execution
-- 🔄 Full-stack development capabilities spanning desktop, web, and WeChat mini-program development, finding commonalities across different technologies
-- 🚀 Maintaining curiosity about the unknown, committed to lifelong learning
+- 🎯 **Project Leadership:** Proven ability to lead cross-functional teams and deliver complex government projects on schedule
+- 🔄 **Full-stack Excellence:** 8+ years C# expertise with comprehensive desktop, web, and mobile development capabilities  
+- 🚀 **Independent Delivery:** Demonstrated capability to single-handedly architect and deliver enterprise-level systems
+- 🛡️ **Mission-Critical Systems:** Experience with high-stakes government applications requiring maximum reliability and security
+- 📈 **Continuous Learning:** Committed to lifelong learning and staying current with emerging technologies
+
+---
+
+## 🏆 Key Achievements
+
+- **🎯 Project Leadership:** Led 4-member team to deliver critical aerospace testing platform, ensuring 3-month on-site deployment success
+- **🚀 Solo Development:** Independently architected and developed pilot recruitment system serving multiple institutions for 3+ years
+- **🔧 System Reliability:** Achieved 99%+ uptime for production systems handling sensitive government operations
+- **💡 Scalable Design:** Created modular architecture enabling rapid deployment across different organizational requirements
+- **🌐 Full-Stack Expertise:** Delivered end-to-end solutions spanning desktop applications, web platforms, and embedded systems
 
 ---
 
 ## 💼 Work Experience
 
-### 🏢 *Xi'an Xinxingma Electronic Technology Co., Ltd.*
+### 🏢 *Xi'an Xinxingma Electronic Technology Co., Ltd. (2021.05 - 2025.01)* 
 
-#### **🔬 1. Testing Platform**
+#### **🔬 1. Testing Platform** *(Project Lead)*
 > **Tech Stack:** ASP.NET Core 6 Web API • Vue3 + Element UI • WPF • MySQL/DM • QuestDB  
-> **Environment:** CentOS • Kylin OS
+> **Environment:** CentOS  
+> **Team:** 4 members (1 Backend, 1 Frontend, 1 Intern)
 
-A B/S and C/S combined architecture project that integrates hardware control, real-time data collection, and intelligent alarm systems.
+A B/S and C/S combined architecture project that integrates hardware control, real-time data collection, and intelligent alarm systems for government aerospace equipment testing programs.
 
 **🎯 Core Features:**
 - **📊 B/S System:**
@@ -52,6 +67,12 @@ A B/S and C/S combined architecture project that integrates hardware control, re
   - Real-time curves connect to SignalR, historical curves connect to Web API
   - High-performance chart rendering using ScottPlot components
 
+**🚀 Project Impact:**
+- Successfully delivered and deployed for critical aerospace equipment testing
+- Maintained 3-month on-site deployment and optimization period
+- System achieved stable production operation with 99%+ uptime
+- Led cross-functional team through complete development lifecycle
+
 #### **🧠 2. Multimodal Data Collection and Intervention System**
 > **Tech Stack:** WPF • Multi-hardware Device Integration • Real-time Data Processing
 
@@ -63,24 +84,46 @@ A WPF-developed project designed to monitor physiological data changes of subjec
 
 The system displays real-time data from collection devices, including curves, videos, and other custom components, integrates client-side model algorithms, and automatically controls output devices to complete interventions.
 
-#### **✈️ 3. Portable Flight Personnel Training System**
+#### **✈️ 3. Flight Personnel Training System** *(Solo Development)*
 > **Tech Stack:** ASP.NET Core 5 Web API • Vue3 + Element UI • WPF • SQL Server • Redis
 
-A B/S and C/S combined architecture project that designed over twenty test mini-programs, each as an independent game with content controllable through question banks.
+A B/S and C/S combined architecture project designed for pilot recruitment testing, featuring over twenty specialized mini-programs for comprehensive candidate evaluation.
 
 **🎮 System Architecture:**
 - **B/S Side:** Mini-program version management, question bank resource updates, user and permission management
 - **C/S Side:** WPF client connects to B/S backend, obtains training resources based on logged-in users, uniformly saves test data
 
 **🔧 Technical Highlights:**
-Since each mini-program runs as an independent process, the client is responsible for downloading, launching, receiving test results from mini-programs, and transparently transmitting results to server APIs. To simplify inter-process communication, before launching mini-programs, the client writes question bank data to Redis. After mini-programs load, test results are published through Redis, received by the client, and pushed to the server via RestClient.
+Since each mini-program runs as an independent process, the client is responsible for downloading, launching, receiving test results from mini-programs, and transparently transmitting results to server APIs. To simplify inter-process communication, before launching mini-programs, the client writes question bank data to Redis. After mini-programs test finished, test results are published through Redis, received by the client, and pushed to the server via RestClient.
+
+**🏆 Business Impact:**
+- Single-handedly developed flexible, modular system architecture
+- Successfully deployed across multiple pilot recruitment institutions
+- System has been in stable operation for 3+ years
+- Multiple customized branches deployed for different recruitment organizations
+- Flexible design enables rapid adaptation to varying testing requirements
 
 #### **📡 4. Antenna Measurement Anechoic Chamber**
 > **Tech Stack:** Qt C++ • Multi-axis Motion Control • Vector Network Analyzers • Signal Sources & Receivers • Data Visualization
 
-A Qt C++ project developed as supporting software for microwave antenna testing laboratories. Through abstract design, it integrates different brands and models of multi-axis motion controllers, vector network analyzers (signal sources, receivers), and other equipment to achieve data collection in different test scenarios (far-field, planar near-field, cylindrical near-field). Data visualization includes curves, heatmaps, contour lines, and 3D surfaces.
+A Qt C++ project developed as supporting software for microwave antenna testing laboratories. Through abstract design, it integrates different brands and models of multi-axis motion controllers, vector network analyzers (signal sources, receivers), and other equipment to achieve data collection in different test scenarios. Data visualization includes curves, heatmaps, contour lines, and 3D surfaces.
 
-#### **🔧 5. Other Projects**
+#### **🎥 5. Distributed Video Monitoring and Data Collection System**
+> **Tech Stack:** ASP.NET Core Web API • WPF • TCP/UDP • Redis • ScottPlot • HTTP Client
+
+A LAN-based distributed monitoring system that enables collaborative work across multiple computers, integrating real-time video surveillance and third-party data collection capabilities.
+
+**🔧 System Architecture:**
+- **Client Nodes:** Three computers capture real-time video via USB cameras, transmitting to the main controller via TCP protocol
+- **Main Controller:** WPF client implements synchronized display and monitoring of three video streams
+- **Data Collection:** Receives HTTP POST data pushes from third-party programs on other computers
+- **Data Processing:** Web API receives pushed data, Redis pub/sub implements real-time notifications
+- **Data Visualization:** Integrates ScottPlot components for historical data curve analysis and display
+
+**💡 Technical Highlights:**
+Low-latency video stream transmission via TCP, Redis pub/sub pattern ensures data real-time performance, WPF multi-threading ensures smooth UI responsiveness, and ScottPlot provides high-performance chart rendering capabilities.
+
+#### **🔧 6. Other Projects**
 
 <details>
 <summary>Click to expand and view detailed projects</summary>
@@ -104,7 +147,7 @@ A Qt C++ project developed as supporting software for microwave antenna testing 
 
 </details>
 
-### 📡 *Xi'an Kelan Electronics Co., Ltd.*
+### 📡 *Xi'an Kelan Electronics Co., Ltd.(2020.02 - 2021.04)*
 
 #### **🔌 Communication Room Power Supply Early Warning System**
 > **Tech Stack:** ASP.NET Core • Vue.js • Third-party API Integration • Real-time Data Monitoring
@@ -115,7 +158,7 @@ A project based on ASP.NET Core + Vue development, primarily responsible for bac
 - **Data Integration:** Interface with third-party environmental monitoring systems for real-time data collection and import
 - **Intelligent Early Warning:** Implement work behavior processing and alarm mechanisms for various power supply equipment under different scenarios
 
-### 🏛️ *Xi'an Jinghexinda & Beijing Ruileitong Electronic Technology Co., Ltd.*
+### 🏛️ *Xi'an Jinghexinda & Beijing Ruileitong Electronic Technology Co., Ltd.(2017.03 - 2019.11)*
 
 #### **📚 Haidian Education Committee Housing Subsidy Management System**
 > **Tech Stack:** ASP.NET Core MVC • LayUI • jQuery • SQL Server
@@ -146,7 +189,7 @@ Implemented using MFC, with upper computer and lower computer communicating via 
 #### **🌍 Online English Learning Platform** - [youngforyou.top](https://youngforyou.top)
 > **Tech Stack:** ASP.NET Core • Vue.js • Azure Cognitive Services • MySQL
 
-- **Key Features:** EPUB upload, Azure TTS audiobooks, pronunciation scoring, AI translation, paragraph explanation and sentence evaluation (grok, gemini, doubao, qwen), vocabulary management
+- **Key Features:** EPUB upload, Azure TTS audiobook generation, pronunciation scoring, AI translation, paragraph explanations and sentence evaluations (Grok, Gemini, Doubao, Qwen), vocabulary management
 - **Project Demo:** [I built a website to learn English](https://www.bilibili.com/video/BV1Cw3Lz4E8e/)
 
 #### **🎥 English Video Learning Client**
