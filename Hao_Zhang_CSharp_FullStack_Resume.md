@@ -6,7 +6,6 @@
 🔗 **GitHub:** [github.com/qmtdlt](https://github.com/qmtdlt)  
 🔗 **LinkedIn:** [linkedin.com/in/hao-zhang-288668156](https://www.linkedin.com/in/hao-zhang-288668156/)  
 🌐 **Personal Website:** [youngforyou.top](https://youngforyou.top) 
-📝 **Blog:** Technical articles on C#/.NET development
 
 </div>
 
@@ -27,7 +26,6 @@
 
 ## 🌟 My Advantages
 
-- 🎯 **Project Leadership:** Proven ability to lead cross-functional teams and deliver complex government projects on schedule
 - 🔄 **Full-stack Excellence:** 8+ years C# expertise with comprehensive desktop, web, and mobile development capabilities  
 - 🚀 **Independent Delivery:** Demonstrated capability to single-handedly architect and deliver enterprise-level systems
 - 🛡️ **Mission-Critical Systems:** Experience with high-stakes government applications requiring maximum reliability and security
@@ -37,7 +35,6 @@
 
 ## 🏆 Key Achievements
 
-- **🎯 Project Leadership:** Led 4-member team to deliver critical aerospace testing platform, ensuring 3-month on-site deployment success
 - **🚀 Solo Development:** Independently architected and developed pilot recruitment system serving multiple institutions for 3+ years
 - **🔧 System Reliability:** Achieved 99%+ uptime for production systems handling sensitive government operations
 - **💡 Scalable Design:** Created modular architecture enabling rapid deployment across different organizational requirements
